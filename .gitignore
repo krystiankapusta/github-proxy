@@ -1,0 +1,66 @@
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+*.icloud
+
+# Logs
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Environment
+.env
+*.env.local
+*.env.development
+*.env.test
+*.env.production
+
+# Gradle
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+.gradletasknamecache
+
+### VisualStudioCode ###
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+*.vsix
+
+# Java
+bin/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+hs_err_pid*
+replay_pid*
+spring.log
+
+# Other
+HELP.md
